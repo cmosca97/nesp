@@ -1,52 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="mycv.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alice Kell CV</title>
-    <img src="https://static.wixstatic.com/media/466e06_f72738ed50e54f598cb5067e7a3e8ce4~mv2.png" alt="Alice's photo">
 </head>
+
 <body>
     <header>
         <h1>Alice Kell</h1>
+        <div>
+            <img src="https://static.wixstatic.com/media/466e06_f72738ed50e54f598cb5067e7a3e8ce4~mv2.png"
+                alt="Alice's photo">
+        </div>
     </header>
     <nav></nav>
     <main>
-        <p class="interesting">Details:</p>
+        <p class="interesting">&#128203 Details:</p>
         <p>London, UK<br>Mob: 079 3316 8158<br>Email: Alice.kell@live.co.uk</p>
-        <p class="interesting">About me:</p>
-        <p>A motivated, adaptable and responsible Computing graduate 
-            seeking a position in an IT position which will utilise the professional 
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31539.335123921497!2d-0.1350629308281725!3d51.50281522023475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760520cd5b5eb5%3A0xa26abf514d902a7!2sBuckingham%20Palace!5e0!3m2!1sit!2sit!4v1684917749173!5m2!1sit!2sit"
+            width="450" height="300" style="border:1;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p class="interesting">&#128590 About me:</p>
+        <p>A motivated, adaptable and responsible Computing graduate
+            seeking a position in an IT position which will utilise the professional
             and technical skills developed through past work experiences in this field.
         </p>
-        <p class="interesting">Experience:</p>
-        <p>Oct 2003 – Jun 2008: IT Support Officer, Ladypool Warehouse Ltd.<br>
-            Provided extensive IT support to internal and external stakeholders;<br>
-            Installed and configured computer hardware operating systems and applications;<br>
-            Monitored and maintained computer systems and networks;<br>
-            Resolved, diagnosed and solved network problems and relevant software faults.
-        </p>
-        <p class="interesting">Education:</p>
-        <p>2009 – 2013: BSc Computer Science (Hons), Aston University<br>
-            Professional and Social Aspects of Computing<br>
-            Data Modelling and Database Systems<br>
-            Understanding Information Systems<br>
-            Information Security<br>
-            Human-Computer Interaction
-        </p>
+        <p class="interesting">&#128188 Experience:</p>
+        <p>Oct 2003 – Jun 2008: IT Support Officer, Ladypool Warehouse Ltd.</p>
+        <ul>
+            <li>Provided extensive IT support to internal and external stakeholders;</li>
+            <li>Installed and configured computer hardware operating systems and applications;</li>
+            <li>Monitored and maintained computer systems and networks;</li>
+            <li>Resolved, diagnosed and solved network problems and relevant software faults.</li>
+        </ul>
+        <p class="interesting">&#127891 Education:</p>
+        <p>2009 – 2013: BSc Computer Science (Hons), Aston University</p>
+        <ul>
+            <li>Professional and Social Aspects of Computing</li>
+            <li>Data Modelling and Database Systems</li>
+            <li>Understanding Information Systems</li>
+            <li>Information Security</li>
+            <li>Human-Computer Interaction</li>
+        </ul>
         <p>2007 – 2009: BTEC National Diploma in IT, Hall Green College</p>
-        <p class="interesting">Skills:</p>
-        <p>Excellent knowledge of a variety of programming languages including Java, 
-            Python, C, JavaScript, PHP and SQL.<br>
-            Strong troubleshooting skills with software, hardware & network products<br>
-            Expert in networking fault diagnostics and troubleshooting, Cisco routers, 
-            Cisco switches, routeing and switching configuration and technologies
-        </p>
-        <p class="interesting">Hobbies and interests:</p>
-        <p>I enjoy reading non-fiction books, building computer networks, 
-            solving puzzles and socialising with friends and family.</p>
+        <p class="interesting">&#128204 Skills:</p>
+        <table>
+            <caption>Programming languages' knowledge</caption>
+            <thead>
+                <tr>
+                    <th scope="row"></th>
+                    <th scope="col">Excellent</th>
+                    <th scope="col">Very good</th>
+                    <th scope="col">Good</th>
+                </tr>
+            </thead>
+            <tr>
+                <th scope="row">Java</th>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">Python</th>
+                <td></td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">C</th>
+                <td></td>
+                <td></td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <th scope="row">JavaScript</th>
+                <td></td>
+                <td>X</td>
+            </tr>
+        </table>
+        <ul>
+            <li>Strong troubleshooting skills with software, hardware & network products</li>
+            <li>Expert in networking fault diagnostics and troubleshooting, Cisco routers,
+                Cisco switches, routeing and switching configuration and technologies</li>
+        </ul>
+        <p class="interesting">&#128187 Hobbies and interests:</p>
+        <ul>
+            <li>Reading non-fiction books</li>
+            <li>Solving puzzles</li>
+            <li>Socialising with friends and family</li>
+        </ul>
+        <p class="interesting">Recruiter's section:</p>
+        <form action="/test" method="POST">
+            <div>
+                <input type="text" name="user" value="" placeholder="Insert your name">
+            </div>
+            <div>
+                <input type="text" name="user" value="" placeholder="Insert your surname">
+            </div>
+            <div>
+                <input type="text" name="company" value="" placeholder="Insert company">
+            </div>
+            <div>
+                <input type="number" name="salary" value="" placeholder="Insert wage offer">
+            </div>
+            <div>
+                <span class="information">Starting date</span><br>
+                <input type="date" name="milestone">
+            </div>
+            <div>
+                <span class="information">Relevant information about the job offer and position</span><br>
+                <textarea name="comment" cols="30" rows="10" placeholder="Enter your comment here"></textarea>
+            </div>
+            <div>
+                <button>Enter</button>
+            </div>
+            <div>
+                <span class="information">Location availability</span><br>
+                <label><input type="checkbox" name="lang" value="London">London</label>
+                <label><input type="checkbox" name="lang" value="Liverpool">Liverpool</label>
+                <label><input type="checkbox" name="lang" value="Birmingham">Birmingham</label>
+                <label><input type="checkbox" name="lang" value="Belfast">Belfast</label>
+                <label><input type="checkbox" name="lang" value="Glasgow">Glasgow</label>
+            </div>
+            <div>
+                <button>Enter</button>
+            </div>
+            <div>
+                <span class="information">Job sector</span><br>
+                <select name="os">
+                    <option value="none">-</option>
+                    <option value="Software Developer" selected>Software Developer</option>
+                    <option value="Web Developer">Web Developer</option>
+                    <option value="IT Project Manager">IT Project Manager</option>
+                    <option value="AI Engineer">AI Engineer</option>
+                    <option value="Video Game Developer">Video Game Developer</option>
+                </select>
+                <button>Enter</button>
+            </div>
+        </form>
     </main>
 </body>
+
 </html>
