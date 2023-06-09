@@ -1,18 +1,55 @@
 body {
     background-color: rgb(248, 246, 240);
 }
+
 h1 {
     color: rgb(146, 86, 95);
     text-align: center;
 }
+
 .interesting {
     font-weight: bold;
     color: rgb(146, 86, 95);
+    background-color: bisque;
+    text-align: center;
 }
+
+.information {
+    color: rgb(183, 108, 119, 1);
+    font-weight: bold;
+}
+
 p {
     color: rgb(183, 108, 119, 1);
 }
+
 img {
     border-radius: 50%;
     width: 150px;
-  }
+}
+
+div {
+    text-align: center;
+}
+
+table {
+    margin-top: 20px;
+    border: 2px solid rgb(146, 86, 95);
+    border-collapse: collapse;
+    width: 50%;
+    background-color: bisque;
+    text-align: center;
+    color: rgb(146, 86, 95);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td,
+th {
+    border: 1px solid rgb(146, 86, 95);
+    text-align: center;
+}
+
+li {
+    color: rgb(183, 108, 119, 1);
+}
